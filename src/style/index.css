@@ -1,0 +1,12 @@
+table.nineTab {
+    border : 1px solid #000;
+}
+
+table.nineTab tr > * {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 3px;
+}
+
+table.nineTab tr *:first-child { min-width: 200px; }
+table.nineTab tr *:nth-child(2) { min-width: 100px; }

@@ -7,12 +7,12 @@ import YTSearch from 'youtube-api-search';
 import _ from 'lodash';
 
 // 임의로 생성해준 경우에는 경로를 적어주어야 한다(상대경로)
-import SearchBar from './components/search_bar';
-import VideoList from './components/video_list';
-import VideoDetail from './components/video_detail';
+import SearchBar from '../components/search_bar';
+import VideoList from '../components/video_list';
+import VideoDetail from '../components/video_detail';
 
 // YOUTUBE API KEY
-const API_KEY = 'AIzaSyATuhOvOG-zwK8m61_83636d6Qm1DjApKc';
+const API_KEY = process.env.REACT_APP_YOUTUBE_KEY;
 
 
 // Create a new component. This component should produce
